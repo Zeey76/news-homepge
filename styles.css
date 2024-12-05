@@ -6,7 +6,10 @@
 
 body {
     padding: 1.5rem;
-    position: relative;
+}
+
+body.no-scroll {
+    overflow: hidden;
 }
 
 p {
@@ -20,6 +23,7 @@ a {
 
 h1 {
     font-size: 2.5rem;
+    font-weight: 900;
 }
 
 h3 {
@@ -142,6 +146,7 @@ main {
     padding: 0.65rem 1rem;
     color: hsl(240, 100%, 5%);
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .content > button:hover {
