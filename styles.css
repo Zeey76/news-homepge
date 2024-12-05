@@ -235,7 +235,7 @@ hr {
 
 @media (min-width: 47rem) {
     .container {
-        max-width: 59rem;
+        max-width: 60rem;
         margin: 2rem auto;
     }
 
@@ -260,8 +260,8 @@ hr {
         display: block;
     }
 
-    .hide {
-        display: block;
+    .main {
+        gap: 3.5rem;
     }
 
     header > button {
